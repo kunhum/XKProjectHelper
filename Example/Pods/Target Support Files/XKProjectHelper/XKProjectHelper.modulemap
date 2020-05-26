@@ -1,0 +1,6 @@
+framework module XKProjectHelper {
+  umbrella header "XKProjectHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

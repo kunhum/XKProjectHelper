@@ -1,0 +1,16 @@
+PODS:
+  - XKProjectHelper (1.0.0)
+
+DEPENDENCIES:
+  - XKProjectHelper (from `../`)
+
+EXTERNAL SOURCES:
+  XKProjectHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKProjectHelper: c9c965a077cdc8a8ae72a7861281c0bb72bbe733
+
+PODFILE CHECKSUM: ea372868a2313a561e80f665a25f3b4c55677ecb
+
+COCOAPODS: 1.9.1

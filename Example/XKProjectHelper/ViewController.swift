@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import XKProjectHelper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        XKLog(123)
+        XKLog(XK_SYSTEM_VERSION)
+        
+        XK_GlobalThread {
+            XKLog(Thread.current)
+        }
     }
 
     override func didReceiveMemoryWarning() {
