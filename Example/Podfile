@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XKProjectHelper_Example' do
+  pod 'XKProjectHelper', :path => '../'
+
+  target 'XKProjectHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
