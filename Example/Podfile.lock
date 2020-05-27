@@ -1,5 +1,5 @@
 PODS:
-  - XKProjectHelper (1.0.0)
+  - XKProjectHelper (1.0.1)
 
 DEPENDENCIES:
   - XKProjectHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKProjectHelper: c9c965a077cdc8a8ae72a7861281c0bb72bbe733
+  XKProjectHelper: 0d19bc07ea89197fe3da20e5ebce5d7be50b95ac
 
 PODFILE CHECKSUM: ea372868a2313a561e80f665a25f3b4c55677ecb
 

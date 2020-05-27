@@ -21,12 +21,15 @@ class ViewController: UIViewController {
         XK_GlobalThread {
             XKLog(Thread.current)
         }
+        
+        print(XK_IS_IPHONEX_SERIES)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
 }
-
