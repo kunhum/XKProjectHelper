@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B869400A80CAACD29D77389544A820A /* XKProjectHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB83915C73B6226EE644FAF2A88E22B /* XKProjectHelper-dummy.m */; };
+		04B876F2F6CCA7AC7D1860FF798FF8F8 /* XKProjectHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 193C11D3824053A0D9B2ABE378834DB6 /* XKProjectHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1873FEE818A072203D9BD0549F2C0FF3 /* XKProjectHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B240440555B8EDCEFD98D0D00C2832 /* XKProjectHelper-dummy.m */; };
 		3CA7193545BC791E54012B32F8B50634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4C3D3110018E5C1A2B70B4CD397E277F /* Pods-XKProjectHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA73FC9C1B7D7DF459B0C0078AAACA9 /* Pods-XKProjectHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55B7372E4D9D1AB1746AE97D267FFD8E /* Pods-XKProjectHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734A21580092312F29C004F128C63A20 /* Pods-XKProjectHelper_Tests-dummy.m */; };
-		8640C8EAC1A4FA0F32364925AA1640F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		647802278D92B5DB681F8E0EC4FFABB7 /* XKDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DFCD0F10ECEDB7A1C3983BCECA2D1 /* XKDefines.swift */; };
+		8871878CB6F13CCF96D584B29C8E75C4 /* XKProjectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D47A672F5B19ABC964507955C69D3 /* XKProjectUtil.swift */; };
 		8AA14E7A18D51F21BBBFF6AAAB68F063 /* Pods-XKProjectHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 728AF731C55A79F68BFD5E2FA2C9FA46 /* Pods-XKProjectHelper_Example-dummy.m */; };
-		A3F26C68975A1060B58B24EEAA1E0603 /* XKProjectHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4320C6243ACA9C4D506B3D63325FE28 /* XKProjectHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B83293011EDD92327444DC3AD5C955FD /* Pods-XKProjectHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1903F65E8226A2A5850C5DF329D16B4 /* Pods-XKProjectHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC628FEA2078B70100F516A4F51DF1A5 /* XKDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3CD07099538BCB2B31C854CE32C485 /* XKDefines.swift */; };
+		EE379AC9AAEC08DA73FA17A44F7EF5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F30733FFAB3B75EEEED23536836B1D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,40 +40,49 @@
 /* Begin PBXFileReference section */
 		06B9D72CBA5035DB037BD45228AD64B0 /* Pods-XKProjectHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKProjectHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A805FD16D284A9C86824CDB6179B6EE /* Pods_XKProjectHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKProjectHelper_Tests.framework; path = "Pods-XKProjectHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B3CD07099538BCB2B31C854CE32C485 /* XKDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKDefines.swift; path = XKProjectHelper/Classes/XKDefines.swift; sourceTree = "<group>"; };
-		24E43789BD635E59F5D4708FEB0FD60F /* XKProjectHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKProjectHelper-prefix.pch"; sourceTree = "<group>"; };
-		2DB83915C73B6226EE644FAF2A88E22B /* XKProjectHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKProjectHelper-dummy.m"; sourceTree = "<group>"; };
+		15B240440555B8EDCEFD98D0D00C2832 /* XKProjectHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKProjectHelper-dummy.m"; sourceTree = "<group>"; };
+		193C11D3824053A0D9B2ABE378834DB6 /* XKProjectHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKProjectHelper-umbrella.h"; sourceTree = "<group>"; };
 		3176FE37FD0D44F70B0B9F70A25F4B6B /* Pods-XKProjectHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKProjectHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3287FD867AD0D400D54B60AEC9840162 /* XKProjectHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKProjectHelper.debug.xcconfig; sourceTree = "<group>"; };
 		33C996B2837360628CE81F1D0B39C3D2 /* Pods-XKProjectHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKProjectHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B918C9E45A6DC845D39EB5D31D68FAB /* XKProjectHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKProjectHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F23CC27D48BEB9062F516697FC9F481 /* Pods-XKProjectHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKProjectHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		45DF0DA9AFEE6668CA4497CD1E4BD7CF /* XKProjectHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKProjectHelper-prefix.pch"; sourceTree = "<group>"; };
+		646DFCD0F10ECEDB7A1C3983BCECA2D1 /* XKDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKDefines.swift; path = XKProjectHelper/Classes/XKDefines.swift; sourceTree = "<group>"; };
 		6AAC553DDC0D8F62227571B6355D791F /* Pods-XKProjectHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKProjectHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F026BB3775006F83BE19A3FB58B1C4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6FAB6717F97F32E8C86DBACDF1900D84 /* XKProjectHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKProjectHelper-Info.plist"; sourceTree = "<group>"; };
+		701D47A672F5B19ABC964507955C69D3 /* XKProjectUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKProjectUtil.swift; path = XKProjectHelper/Classes/XKProjectUtil.swift; sourceTree = "<group>"; };
 		70A6E92C71784C5BD420F54115F9A33E /* Pods-XKProjectHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKProjectHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		728AF731C55A79F68BFD5E2FA2C9FA46 /* Pods-XKProjectHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKProjectHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		734A21580092312F29C004F128C63A20 /* Pods-XKProjectHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKProjectHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		761A7B974C427D7D360C41F7A38EB999 /* Pods-XKProjectHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKProjectHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7708929D3FE83B51475CCAC2F50EC173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7A210ABF758F1A191BBFDD22A70C7AAC /* Pods-XKProjectHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKProjectHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8090D8AF583BC425284C46C29A824A3C /* Pods-XKProjectHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKProjectHelper_Example.modulemap"; sourceTree = "<group>"; };
-		8490782C0E153FE487FEA75AE5FF8591 /* XKProjectHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKProjectHelper.modulemap; sourceTree = "<group>"; };
 		8B6C8A329C735A3EAF2042E083370F59 /* Pods-XKProjectHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKProjectHelper_Tests-Info.plist"; sourceTree = "<group>"; };
-		8DE43631E742DB894B63B0984504E824 /* XKProjectHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKProjectHelper-Info.plist"; sourceTree = "<group>"; };
+		8EAA5C988CE60B5189C6A9ED96A35320 /* XKProjectHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKProjectHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4320C6243ACA9C4D506B3D63325FE28 /* XKProjectHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKProjectHelper-umbrella.h"; sourceTree = "<group>"; };
 		B937EBB0FDC43077525217F1B73CEDE8 /* Pods-XKProjectHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKProjectHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		C6D888E62D4458665D2FDB29658BEE84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB5D9EF69C78A4DFDB52160612FE6309 /* XKProjectHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKProjectHelper.debug.xcconfig; sourceTree = "<group>"; };
+		CB77A3B17F39FF3F64F2B90920436B7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CF2FBEA06835524BB59C2139DE0D91A3 /* Pods-XKProjectHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKProjectHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		CFA73FC9C1B7D7DF459B0C0078AAACA9 /* Pods-XKProjectHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKProjectHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		D3F9F39145DC1F41F681A3A902DC71A4 /* Pods-XKProjectHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKProjectHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F128E5C0DF3C47D7967CE5E9C9C92F39 /* XKProjectHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKProjectHelper.framework; path = XKProjectHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1903F65E8226A2A5850C5DF329D16B4 /* Pods-XKProjectHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKProjectHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F2E7617B74994BA5DC8008392B47584C /* Pods_XKProjectHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKProjectHelper_Example.framework; path = "Pods-XKProjectHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDC75A736851D93545419F2CB0BF17CB /* XKProjectHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKProjectHelper.release.xcconfig; sourceTree = "<group>"; };
+		F4A0CAB1B5A561F148F33DA1F478E937 /* XKProjectHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKProjectHelper.release.xcconfig; sourceTree = "<group>"; };
+		FA6E4AD0B59922501CE76AD8C61A0D5E /* XKProjectHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKProjectHelper.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A0E97DC48789B381F9042E7199C3C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE379AC9AAEC08DA73FA17A44F7EF5FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A705C62D2322E717C5A2395236F75CE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,17 +99,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0EEC66AD20A3EC952F1421704CB143 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8640C8EAC1A4FA0F32364925AA1640F8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A68D5A5B97DA98A1216B503C0257BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E4AD0B59922501CE76AD8C61A0D5E /* XKProjectHelper.modulemap */,
+				15B240440555B8EDCEFD98D0D00C2832 /* XKProjectHelper-dummy.m */,
+				6FAB6717F97F32E8C86DBACDF1900D84 /* XKProjectHelper-Info.plist */,
+				45DF0DA9AFEE6668CA4497CD1E4BD7CF /* XKProjectHelper-prefix.pch */,
+				193C11D3824053A0D9B2ABE378834DB6 /* XKProjectHelper-umbrella.h */,
+				CB5D9EF69C78A4DFDB52160612FE6309 /* XKProjectHelper.debug.xcconfig */,
+				F4A0CAB1B5A561F148F33DA1F478E937 /* XKProjectHelper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKProjectHelper";
+			sourceTree = "<group>";
+		};
 		3FAC1D5B2CDC4E54D6A3AFEA4100DF8E /* Pods-XKProjectHelper_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +131,6 @@
 			);
 			name = "Pods-XKProjectHelper_Tests";
 			path = "Target Support Files/Pods-XKProjectHelper_Tests";
-			sourceTree = "<group>";
-		};
-		476B5A38FFA9EAC64D34E32C0EEF55BA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C6D888E62D4458665D2FDB29658BEE84 /* LICENSE */,
-				7708929D3FE83B51475CCAC2F50EC173 /* README.md */,
-				3B918C9E45A6DC845D39EB5D31D68FAB /* XKProjectHelper.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		526FF55A61A17C84A2B5AF52DA2F1268 /* Pods-XKProjectHelper_Example */ = {
@@ -143,32 +150,6 @@
 			path = "Target Support Files/Pods-XKProjectHelper_Example";
 			sourceTree = "<group>";
 		};
-		81A7C5EB378882E00EB6003EA17EA6F7 /* XKProjectHelper */ = {
-			isa = PBXGroup;
-			children = (
-				1B3CD07099538BCB2B31C854CE32C485 /* XKDefines.swift */,
-				476B5A38FFA9EAC64D34E32C0EEF55BA /* Pod */,
-				AF57A7AC26D1BD7CCCB3DD79768B09E5 /* Support Files */,
-			);
-			name = XKProjectHelper;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AF57A7AC26D1BD7CCCB3DD79768B09E5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8490782C0E153FE487FEA75AE5FF8591 /* XKProjectHelper.modulemap */,
-				2DB83915C73B6226EE644FAF2A88E22B /* XKProjectHelper-dummy.m */,
-				8DE43631E742DB894B63B0984504E824 /* XKProjectHelper-Info.plist */,
-				24E43789BD635E59F5D4708FEB0FD60F /* XKProjectHelper-prefix.pch */,
-				A4320C6243ACA9C4D506B3D63325FE28 /* XKProjectHelper-umbrella.h */,
-				3287FD867AD0D400D54B60AEC9840162 /* XKProjectHelper.debug.xcconfig */,
-				FDC75A736851D93545419F2CB0BF17CB /* XKProjectHelper.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XKProjectHelper";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,19 +158,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C378FE4A397A5DE4DA0B9425DE229CD2 /* Development Pods */ = {
+		C13E9C5968D704168ACA55099DDA9C60 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				81A7C5EB378882E00EB6003EA17EA6F7 /* XKProjectHelper */,
+				6F026BB3775006F83BE19A3FB58B1C4C /* LICENSE */,
+				CB77A3B17F39FF3F64F2B90920436B7C /* README.md */,
+				8EAA5C988CE60B5189C6A9ED96A35320 /* XKProjectHelper.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C378FE4A397A5DE4DA0B9425DE229CD2 /* Development Pods */,
+				F9D8867EA2A2A7835EC0BBBAE23AA4A2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FC604B286E5BF681DAEE3C6A4842A90B /* Products */,
 				D9D757D08BDFACA70CDFF4E1969CA73E /* Targets Support Files */,
@@ -213,6 +196,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E980649398E7FE60AC6B725966333067 /* XKProjectHelper */ = {
+			isa = PBXGroup;
+			children = (
+				646DFCD0F10ECEDB7A1C3983BCECA2D1 /* XKDefines.swift */,
+				701D47A672F5B19ABC964507955C69D3 /* XKProjectUtil.swift */,
+				C13E9C5968D704168ACA55099DDA9C60 /* Pod */,
+				08A68D5A5B97DA98A1216B503C0257BB /* Support Files */,
+			);
+			name = XKProjectHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9D8867EA2A2A7835EC0BBBAE23AA4A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E980649398E7FE60AC6B725966333067 /* XKProjectHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		FC604B286E5BF681DAEE3C6A4842A90B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,11 +237,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D56E1BED182A2EEEAF578359E15D098 /* Headers */ = {
+		E86A2A44E2129A15C6D46DA544BD2B68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F26C68975A1060B58B24EEAA1E0603 /* XKProjectHelper-umbrella.h in Headers */,
+				04B876F2F6CCA7AC7D1860FF798FF8F8 /* XKProjectHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		0B1C258221AF278F4663BF5B5AE929A7 /* XKProjectHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E8BD56A2405D39CD6D6920F85708CA0 /* Build configuration list for PBXNativeTarget "XKProjectHelper" */;
+			buildConfigurationList = 69F65B2BEF5E3E791C5BA8ED67DC71CF /* Build configuration list for PBXNativeTarget "XKProjectHelper" */;
 			buildPhases = (
-				9D56E1BED182A2EEEAF578359E15D098 /* Headers */,
-				9C15E6DD1785D09F3E7D261338CD14EF /* Sources */,
-				FD0EEC66AD20A3EC952F1421704CB143 /* Frameworks */,
-				FBD24267E7AB0EC5506993FAEBF6DEAD /* Resources */,
+				E86A2A44E2129A15C6D46DA544BD2B68 /* Headers */,
+				E0FF1FAB5CD2C9FC5777C3EEB2EDD809 /* Sources */,
+				2A0E97DC48789B381F9042E7199C3C69 /* Frameworks */,
+				FBF26759C431C94802E54470BB160AD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBD24267E7AB0EC5506993FAEBF6DEAD /* Resources */ = {
+		FBF26759C431C94802E54470BB160AD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,20 +374,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C15E6DD1785D09F3E7D261338CD14EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC628FEA2078B70100F516A4F51DF1A5 /* XKDefines.swift in Sources */,
-				0B869400A80CAACD29D77389544A820A /* XKProjectHelper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A5BA61B682ABF7E2B040B14A002B2B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8AA14E7A18D51F21BBBFF6AAAB68F063 /* Pods-XKProjectHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FF1FAB5CD2C9FC5777C3EEB2EDD809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647802278D92B5DB681F8E0EC4FFABB7 /* XKDefines.swift in Sources */,
+				1873FEE818A072203D9BD0549F2C0FF3 /* XKProjectHelper-dummy.m in Sources */,
+				8871878CB6F13CCF96D584B29C8E75C4 /* XKProjectUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,38 +443,6 @@
 			};
 			name = Debug;
 		};
-		20284459B3630C6BA6AD76EA1851A454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDC75A736851D93545419F2CB0BF17CB /* XKProjectHelper.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XKProjectHelper/XKProjectHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper.modulemap";
-				PRODUCT_MODULE_NAME = XKProjectHelper;
-				PRODUCT_NAME = XKProjectHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3E4C0DC3559ED2AEAD27C9B9AAFBDADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70A6E92C71784C5BD420F54115F9A33E /* Pods-XKProjectHelper_Tests.release.xcconfig */;
@@ -504,6 +476,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		421018BF212B370C5C2BC01BA145CD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A0CAB1B5A561F148F33DA1F478E937 /* XKProjectHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKProjectHelper/XKProjectHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper.modulemap";
+				PRODUCT_MODULE_NAME = XKProjectHelper;
+				PRODUCT_NAME = XKProjectHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80EBC1F33871A2478B05AB15081E8B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5D9EF69C78A4DFDB52160612FE6309 /* XKProjectHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKProjectHelper/XKProjectHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper.modulemap";
+				PRODUCT_MODULE_NAME = XKProjectHelper;
+				PRODUCT_NAME = XKProjectHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9AFB382AF8364724C2D2FC4D738D39D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -597,37 +632,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		B77128E07DE09F815E78FA61A3282983 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3287FD867AD0D400D54B60AEC9840162 /* XKProjectHelper.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XKProjectHelper/XKProjectHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XKProjectHelper/XKProjectHelper.modulemap";
-				PRODUCT_MODULE_NAME = XKProjectHelper;
-				PRODUCT_NAME = XKProjectHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -748,11 +752,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E8BD56A2405D39CD6D6920F85708CA0 /* Build configuration list for PBXNativeTarget "XKProjectHelper" */ = {
+		69F65B2BEF5E3E791C5BA8ED67DC71CF /* Build configuration list for PBXNativeTarget "XKProjectHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B77128E07DE09F815E78FA61A3282983 /* Debug */,
-				20284459B3630C6BA6AD76EA1851A454 /* Release */,
+				80EBC1F33871A2478B05AB15081E8B3B /* Debug */,
+				421018BF212B370C5C2BC01BA145CD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

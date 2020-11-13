@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         }
         
         print(XK_IS_IPHONEX_SERIES)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

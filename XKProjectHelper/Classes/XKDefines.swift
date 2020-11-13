@@ -13,7 +13,7 @@ public let XK_SMALL_SCREEN = XK_SCREEN_WIDTH < 375.0
 //MARK: 系统版本
 public let XK_SYSTEM_VERSION = Double(UIDevice.current.systemVersion)!
 //MARK: 判断是否iPhoneX系列
-public let XK_IS_IPHONEX_SERIES = UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? (Int((UIScreen.main.currentMode?.size.height ?? 0.0)/(UIScreen.main.currentMode?.size.width ?? 0.01)) * 100 == 216) : false
+public let XK_IS_IPHONEX_SERIES = UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? (Int((UIScreen.main.currentMode?.size.height ?? 0.0)/(UIScreen.main.currentMode?.size.width ?? 0.01) * 100.0) == 216) : false
 
 //MARK: 屏幕宽
 public let XK_SCREEN_WIDTH = UIScreen.main.bounds.width
