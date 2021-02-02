@@ -1,15 +1,22 @@
 PODS:
-  - XKProjectHelper (1.0.2)
+  - HandyJSON (5.0.2)
+  - XKProjectHelper (1.0.3):
+    - HandyJSON
 
 DEPENDENCIES:
   - XKProjectHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - HandyJSON
 
 EXTERNAL SOURCES:
   XKProjectHelper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKProjectHelper: bbfb512d64d3cbe53fecca0697c1bcaa6767e097
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  XKProjectHelper: 1ffee644d509ae25618f7c4185795b31608bfc2f
 
 PODFILE CHECKSUM: ea372868a2313a561e80f665a25f3b4c55677ecb
 
