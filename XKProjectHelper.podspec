@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKProjectHelper'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of XKProjectHelper.'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'HandyJSON'
-   s.dependency 'XKUtil', '~> 1.0.3'
+   s.dependency 'XKUtil', '~> 1.0'
 
 end
