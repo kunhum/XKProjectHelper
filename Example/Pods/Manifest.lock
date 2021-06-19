@@ -2,13 +2,16 @@ PODS:
   - HandyJSON (5.0.2)
   - XKProjectHelper (1.0.3):
     - HandyJSON
+    - XKUtil (~> 1.0.3)
+  - XKUtil (1.0.3)
 
 DEPENDENCIES:
   - XKProjectHelper (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - HandyJSON
+    - XKUtil
 
 EXTERNAL SOURCES:
   XKProjectHelper:
@@ -16,8 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  XKProjectHelper: 1ffee644d509ae25618f7c4185795b31608bfc2f
+  XKProjectHelper: 441e932264aa113a62a32b97c1cb29030aeb21c9
+  XKUtil: 094cc60975e462aa99c6ca2b71b466699eaea079
 
-PODFILE CHECKSUM: ea372868a2313a561e80f665a25f3b4c55677ecb
+PODFILE CHECKSUM: 535546b461995bf7e5e4aa788d73dc4719d902a8
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

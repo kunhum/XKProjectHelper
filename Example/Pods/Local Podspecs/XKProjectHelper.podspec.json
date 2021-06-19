@@ -22,6 +22,9 @@
   "dependencies": {
     "HandyJSON": [
 
+    ],
+    "XKUtil": [
+      "~> 1.0.3"
     ]
   }
 }

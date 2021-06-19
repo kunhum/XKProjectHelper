@@ -293,11 +293,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-XKProjectHelper_Example/Pods-XKProjectHelper_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XKProjectHelper/XKProjectHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/XKUtil/XKUtil.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKProjectHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKUtil.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
