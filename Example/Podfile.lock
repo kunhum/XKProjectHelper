@@ -1,6 +1,6 @@
 PODS:
   - HandyJSON (5.0.2)
-  - XKProjectHelper (1.0.3):
+  - XKProjectHelper (1.0.4):
     - HandyJSON
     - XKUtil (~> 1.0.3)
   - XKUtil (1.0.3)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  XKProjectHelper: 441e932264aa113a62a32b97c1cb29030aeb21c9
+  XKProjectHelper: d3438f71d767243c8c54a57ffec42b5391f4a12f
   XKUtil: 094cc60975e462aa99c6ca2b71b466699eaea079
 
 PODFILE CHECKSUM: 535546b461995bf7e5e4aa788d73dc4719d902a8
