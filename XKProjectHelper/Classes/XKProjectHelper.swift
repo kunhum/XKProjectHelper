@@ -12,15 +12,15 @@ let XK_LOGIN_KEY = "XK_LOGIN_KEY"
 let XK_TAOLU_KEY = "XK_TAOLU_KEY"
 
 ///登录状态
-var XK_LOGIN_STATUS: Bool {
+public var XK_LOGIN_STATUS: Bool {
     return XK_UserDefaults.bool(forKey: XK_LOGIN_KEY)
 }
 ///设置登录状态
-func XK_SetLogin(status: Bool) {
+public func XK_SetLogin(status: Bool) {
     XK_UserDefaults.set(status, forKey: XK_LOGIN_KEY)
     XK_UserDefaults.synchronize()
 }
-func XK_excute(debug: (() -> Void)?, release: (() -> Void)?) {
+public func XK_excute(debug: (() -> Void)?, release: (() -> Void)?) {
     #if DEBUG
     debug?()
     #else
@@ -28,18 +28,18 @@ func XK_excute(debug: (() -> Void)?, release: (() -> Void)?) {
     #endif
 }
 ///套路：true时代表要执行套路
-var XK_TAOLU_STATUS: Bool {
+public var XK_TAOLU_STATUS: Bool {
     return XK_UserDefaults.bool(forKey: XK_TAOLU_KEY)
 }
-func Xk_SetTaolu(status: Bool) {
+public func Xk_SetTaolu(status: Bool) {
     XK_UserDefaults.set(status, forKey: XK_TAOLU_KEY)
     XK_UserDefaults.synchronize()
 }
 
-class XKProjectHelper {
+public class XKProjectHelper {
     
     //MARK: 获取视频大小
-    static func videoSize(urlPath: String, maxHeight: CGFloat = XK_SCREEN_HEIGHT) -> CGSize {
+    public static func videoSize(urlPath: String, maxHeight: CGFloat = XK_SCREEN_HEIGHT) -> CGSize {
         
         guard let videoUrl = URL(string: urlPath) else { return CGSize.zero }
         
@@ -60,7 +60,7 @@ class XKProjectHelper {
         
     }
     //MARK: 格式化距离，返回*m，*km
-    static func formatDistance(distance: Double) -> String {
+    public static func formatDistance(distance: Double) -> String {
         
         guard distance > 1000.0 else {
             return "\(distance)" + "m"
@@ -68,7 +68,7 @@ class XKProjectHelper {
         return String(format: "%.1fkm", distance / 1000.0)
     }
     //MARK: 格式化昵称
-    static func formatNickname(nickName: String) -> String {
+    public static func formatNickname(nickName: String) -> String {
 
         let tmpNic = nickName as NSString
         
@@ -86,45 +86,16 @@ class XKProjectHelper {
     }
 
     //MARK: 创建缓存文件
-    static func createCaches() {
+    public static func createCaches() {
         guard let documentPath = XK_PATH_DOCUMENT else { return }
         let path = documentPath + "/XKCaches"
         XKFileManager.xk_createFileDirectory(path: path)
     }
     //MARK: 获取缓存目录路径
-    static func cachesPath() -> String {
+    public static func cachesPath() -> String {
         guard let documentPath = XK_PATH_DOCUMENT else { return "" }
         return documentPath + "/XKCaches"
     }
     
 }
 
-////MARK: - 体检项目
-//extension XKProjectHelper {
-//
-//    //MARK: 检查登录状态，未登录时会弹窗
-//    func XK_checkLoginStatus(excute: (() -> Void)?) {
-//        guard XK_LOGIN_STATUS else {
-//            UIViewController.xk_current().showLoginNavigationPage()
-//            XKUserModel.currentUser().remove()
-//            return
-//        }
-//        excute?()
-//    }
-//
-//    static func pe_createReportCaches() {
-//
-//        guard var path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last else { return }
-//        path.append("/Caches/PEReportCaches")
-//        guard XKFileManager.xk_fileExist(filePath: path) == false else {
-//            return
-//        }
-//        XKFileManager.xk_createFileDirectory(path: path)
-//    }
-//    static func pe_reportCachesPath() -> String {
-//
-//        guard var path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last else { return "" }
-//        path.append("/Caches/PEReportCaches")
-//        return path
-//    }
-//}
